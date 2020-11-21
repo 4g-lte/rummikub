@@ -1,0 +1,16 @@
+void putkeep(unsigned long long* keep, struct card* cards, unsigned long long* setting);
+void takeoutkepp(unsigned long long* keep, struct card* cards, unsigned long long* setting);
+void printsettingcard(unsigned long long* a);
+void printplayercard(unsigned long long* a);
+void draw(struct card* cards, struct playercard* playercards);
+void investigate(unsigned long long* setting);
+void copyarray(unsigned long long* a, unsigned long long* b);
+void startrandom(struct playercard* playercards);
+void finish(struct playercard* playercards);
+1.내려놓기 
+2.주머니에 넣기 
+3.주머니에서 꺼내기 
+4.조커바꾸기 
+5.초기화 
+6.카드 뽑기 
+7.턴 종료 
